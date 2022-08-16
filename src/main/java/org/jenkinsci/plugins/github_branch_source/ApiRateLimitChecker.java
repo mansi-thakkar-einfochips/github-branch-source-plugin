@@ -396,7 +396,7 @@ public enum ApiRateLimitChecker {
         listener.getLogger().println("Bose: waitUntilRateLimit: sleep:" + sleep);
         if (sleep > 0) {
           //Thread.sleep(sleep);
-		    listener.getLogger().println("Bose: waitUntilRateLimit: "Removed sleep function and triggers the job"");
+		    listener.getLogger().println("Bose: waitUntilRateLimit: Removed sleep function and triggers the job");
 
         }
       } else {
